@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E17FD991F457A2B0066FE40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FD981F457A2B0066FE40 /* main.m */; };
+		5E17FD9C1F457A2B0066FE40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FD9B1F457A2B0066FE40 /* AppDelegate.m */; };
+		5E17FD9F1F457A2B0066FE40 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FD9E1F457A2B0066FE40 /* ViewController.m */; };
+		5E17FDA21F457A2B0066FE40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E17FDA01F457A2B0066FE40 /* Main.storyboard */; };
+		5E17FDA41F457A2B0066FE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E17FDA31F457A2B0066FE40 /* Assets.xcassets */; };
+		5E17FDA71F457A2B0066FE40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E17FDA51F457A2B0066FE40 /* LaunchScreen.storyboard */; };
+		5E17FDB21F457EE40066FE40 /* YBAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E17FDB11F457EE30066FE40 /* YBAudioTool.m */; };
+		5EB321F61F467E1400831D3D /* YBAudioFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB321F51F467E1400831D3D /* YBAudioFileTool.m */; };
+		5EB321F81F469C3100831D3D /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB321F71F469C3100831D3D /* libmp3lame.a */; };
+		5EB321FC1F469C5000831D3D /* LameTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB321FB1F469C5000831D3D /* LameTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E17FD941F457A2B0066FE40 /* 录音功能.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "录音功能.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E17FD981F457A2B0066FE40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E17FD9A1F457A2B0066FE40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E17FD9B1F457A2B0066FE40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E17FD9D1F457A2B0066FE40 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E17FD9E1F457A2B0066FE40 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E17FDA11F457A2B0066FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E17FDA31F457A2B0066FE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E17FDA61F457A2B0066FE40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E17FDA81F457A2B0066FE40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E17FDAF1F457ECB0066FE40 /* Sington.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sington.h; sourceTree = "<group>"; };
+		5E17FDB01F457EE30066FE40 /* YBAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAudioTool.h; sourceTree = "<group>"; };
+		5E17FDB11F457EE30066FE40 /* YBAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAudioTool.m; sourceTree = "<group>"; };
+		5EB321F41F467E1400831D3D /* YBAudioFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBAudioFileTool.h; sourceTree = "<group>"; };
+		5EB321F51F467E1400831D3D /* YBAudioFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBAudioFileTool.m; sourceTree = "<group>"; };
+		5EB321F71F469C3100831D3D /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		5EB321F91F469C3600831D3D /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		5EB321FA1F469C5000831D3D /* LameTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LameTool.h; sourceTree = "<group>"; };
+		5EB321FB1F469C5000831D3D /* LameTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LameTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E17FD911F457A2B0066FE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EB321F81F469C3100831D3D /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E17FD8B1F457A2B0066FE40 = {
+			isa = PBXGroup;
+			children = (
+				5E17FD961F457A2B0066FE40 /* 录音功能 */,
+				5E17FD951F457A2B0066FE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E17FD951F457A2B0066FE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E17FD941F457A2B0066FE40 /* 录音功能.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E17FD961F457A2B0066FE40 /* 录音功能 */ = {
+			isa = PBXGroup;
+			children = (
+				5E17FDAE1F457CD70066FE40 /* YBRecoder */,
+				5E17FD9A1F457A2B0066FE40 /* AppDelegate.h */,
+				5E17FD9B1F457A2B0066FE40 /* AppDelegate.m */,
+				5E17FD9D1F457A2B0066FE40 /* ViewController.h */,
+				5E17FD9E1F457A2B0066FE40 /* ViewController.m */,
+				5E17FDA01F457A2B0066FE40 /* Main.storyboard */,
+				5E17FDA31F457A2B0066FE40 /* Assets.xcassets */,
+				5E17FDA51F457A2B0066FE40 /* LaunchScreen.storyboard */,
+				5E17FDA81F457A2B0066FE40 /* Info.plist */,
+				5E17FD971F457A2B0066FE40 /* Supporting Files */,
+			);
+			path = "录音功能";
+			sourceTree = "<group>";
+		};
+		5E17FD971F457A2B0066FE40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E17FD981F457A2B0066FE40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E17FDAE1F457CD70066FE40 /* YBRecoder */ = {
+			isa = PBXGroup;
+			children = (
+				5E17FDAF1F457ECB0066FE40 /* Sington.h */,
+				5E17FDB01F457EE30066FE40 /* YBAudioTool.h */,
+				5E17FDB11F457EE30066FE40 /* YBAudioTool.m */,
+				5EB321F41F467E1400831D3D /* YBAudioFileTool.h */,
+				5EB321F51F467E1400831D3D /* YBAudioFileTool.m */,
+				5EB321F71F469C3100831D3D /* libmp3lame.a */,
+				5EB321F91F469C3600831D3D /* lame.h */,
+				5EB321FA1F469C5000831D3D /* LameTool.h */,
+				5EB321FB1F469C5000831D3D /* LameTool.m */,
+			);
+			path = YBRecoder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E17FD931F457A2B0066FE40 /* 录音功能 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E17FDAB1F457A2B0066FE40 /* Build configuration list for PBXNativeTarget "录音功能" */;
+			buildPhases = (
+				5E17FD901F457A2B0066FE40 /* Sources */,
+				5E17FD911F457A2B0066FE40 /* Frameworks */,
+				5E17FD921F457A2B0066FE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "录音功能";
+			productName = "录音功能";
+			productReference = 5E17FD941F457A2B0066FE40 /* 录音功能.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E17FD8C1F457A2B0066FE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhl;
+				TargetAttributes = {
+					5E17FD931F457A2B0066FE40 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E17FD8F1F457A2B0066FE40 /* Build configuration list for PBXProject "录音功能" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E17FD8B1F457A2B0066FE40;
+			productRefGroup = 5E17FD951F457A2B0066FE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E17FD931F457A2B0066FE40 /* 录音功能 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E17FD921F457A2B0066FE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17FDA71F457A2B0066FE40 /* LaunchScreen.storyboard in Resources */,
+				5E17FDA41F457A2B0066FE40 /* Assets.xcassets in Resources */,
+				5E17FDA21F457A2B0066FE40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E17FD901F457A2B0066FE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E17FD9F1F457A2B0066FE40 /* ViewController.m in Sources */,
+				5E17FD9C1F457A2B0066FE40 /* AppDelegate.m in Sources */,
+				5EB321FC1F469C5000831D3D /* LameTool.m in Sources */,
+				5E17FD991F457A2B0066FE40 /* main.m in Sources */,
+				5EB321F61F467E1400831D3D /* YBAudioFileTool.m in Sources */,
+				5E17FDB21F457EE40066FE40 /* YBAudioTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E17FDA01F457A2B0066FE40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E17FDA11F457A2B0066FE40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E17FDA51F457A2B0066FE40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E17FDA61F457A2B0066FE40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E17FDA91F457A2B0066FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E17FDAA1F457A2B0066FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E17FDAC1F457A2B0066FE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "录音功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/录音功能/YBRecoder",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "julyedu.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E17FDAD1F457A2B0066FE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "录音功能/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/录音功能/YBRecoder",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "julyedu.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E17FD8F1F457A2B0066FE40 /* Build configuration list for PBXProject "录音功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17FDA91F457A2B0066FE40 /* Debug */,
+				5E17FDAA1F457A2B0066FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E17FDAB1F457A2B0066FE40 /* Build configuration list for PBXNativeTarget "录音功能" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E17FDAC1F457A2B0066FE40 /* Debug */,
+				5E17FDAD1F457A2B0066FE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E17FD8C1F457A2B0066FE40 /* Project object */;
+}
